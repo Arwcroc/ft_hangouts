@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6955B4272C0E088C00971C2D /* ft_hangoutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4262C0E088C00971C2D /* ft_hangoutsApp.swift */; };
+		6955B4292C0E088C00971C2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4282C0E088C00971C2D /* ContentView.swift */; };
+		6955B42B2C0E088F00971C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6955B42A2C0E088F00971C2D /* Assets.xcassets */; };
+		6955B42E2C0E088F00971C2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6955B42D2C0E088F00971C2D /* Preview Assets.xcassets */; };
+		6955B4302C0E088F00971C2D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B42F2C0E088F00971C2D /* Persistence.swift */; };
+		6955B4332C0E088F00971C2D /* ft_hangouts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4312C0E088F00971C2D /* ft_hangouts.xcdatamodeld */; };
+		6955B43D2C0E088F00971C2D /* ft_hangoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B43C2C0E088F00971C2D /* ft_hangoutsTests.swift */; };
+		6955B4472C0E088F00971C2D /* ft_hangoutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4462C0E088F00971C2D /* ft_hangoutsUITests.swift */; };
+		6955B4492C0E088F00971C2D /* ft_hangoutsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4482C0E088F00971C2D /* ft_hangoutsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6955B4392C0E088F00971C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6955B41B2C0E088C00971C2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6955B4222C0E088C00971C2D;
+			remoteInfo = ft_hangouts;
+		};
+		6955B4432C0E088F00971C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6955B41B2C0E088C00971C2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6955B4222C0E088C00971C2D;
+			remoteInfo = ft_hangouts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6955B4232C0E088C00971C2D /* ft_hangouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ft_hangouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6955B4262C0E088C00971C2D /* ft_hangoutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ft_hangoutsApp.swift; sourceTree = "<group>"; };
+		6955B4282C0E088C00971C2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6955B42A2C0E088F00971C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6955B42D2C0E088F00971C2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6955B42F2C0E088F00971C2D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6955B4322C0E088F00971C2D /* ft_hangouts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ft_hangouts.xcdatamodel; sourceTree = "<group>"; };
+		6955B4382C0E088F00971C2D /* ft_hangoutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ft_hangoutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6955B43C2C0E088F00971C2D /* ft_hangoutsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ft_hangoutsTests.swift; sourceTree = "<group>"; };
+		6955B4422C0E088F00971C2D /* ft_hangoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ft_hangoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6955B4462C0E088F00971C2D /* ft_hangoutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ft_hangoutsUITests.swift; sourceTree = "<group>"; };
+		6955B4482C0E088F00971C2D /* ft_hangoutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ft_hangoutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6955B4202C0E088C00971C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6955B4352C0E088F00971C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6955B43F2C0E088F00971C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6955B41A2C0E088C00971C2D = {
+			isa = PBXGroup;
+			children = (
+				6955B4252C0E088C00971C2D /* ft_hangouts */,
+				6955B43B2C0E088F00971C2D /* ft_hangoutsTests */,
+				6955B4452C0E088F00971C2D /* ft_hangoutsUITests */,
+				6955B4242C0E088C00971C2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6955B4242C0E088C00971C2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6955B4232C0E088C00971C2D /* ft_hangouts.app */,
+				6955B4382C0E088F00971C2D /* ft_hangoutsTests.xctest */,
+				6955B4422C0E088F00971C2D /* ft_hangoutsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6955B4252C0E088C00971C2D /* ft_hangouts */ = {
+			isa = PBXGroup;
+			children = (
+				6955B4262C0E088C00971C2D /* ft_hangoutsApp.swift */,
+				6955B4282C0E088C00971C2D /* ContentView.swift */,
+				6955B42A2C0E088F00971C2D /* Assets.xcassets */,
+				6955B42F2C0E088F00971C2D /* Persistence.swift */,
+				6955B4312C0E088F00971C2D /* ft_hangouts.xcdatamodeld */,
+				6955B42C2C0E088F00971C2D /* Preview Content */,
+			);
+			path = ft_hangouts;
+			sourceTree = "<group>";
+		};
+		6955B42C2C0E088F00971C2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6955B42D2C0E088F00971C2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6955B43B2C0E088F00971C2D /* ft_hangoutsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6955B43C2C0E088F00971C2D /* ft_hangoutsTests.swift */,
+			);
+			path = ft_hangoutsTests;
+			sourceTree = "<group>";
+		};
+		6955B4452C0E088F00971C2D /* ft_hangoutsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6955B4462C0E088F00971C2D /* ft_hangoutsUITests.swift */,
+				6955B4482C0E088F00971C2D /* ft_hangoutsUITestsLaunchTests.swift */,
+			);
+			path = ft_hangoutsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6955B4222C0E088C00971C2D /* ft_hangouts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6955B44C2C0E088F00971C2D /* Build configuration list for PBXNativeTarget "ft_hangouts" */;
+			buildPhases = (
+				6955B41F2C0E088C00971C2D /* Sources */,
+				6955B4202C0E088C00971C2D /* Frameworks */,
+				6955B4212C0E088C00971C2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ft_hangouts;
+			productName = ft_hangouts;
+			productReference = 6955B4232C0E088C00971C2D /* ft_hangouts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6955B4372C0E088F00971C2D /* ft_hangoutsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6955B44F2C0E088F00971C2D /* Build configuration list for PBXNativeTarget "ft_hangoutsTests" */;
+			buildPhases = (
+				6955B4342C0E088F00971C2D /* Sources */,
+				6955B4352C0E088F00971C2D /* Frameworks */,
+				6955B4362C0E088F00971C2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6955B43A2C0E088F00971C2D /* PBXTargetDependency */,
+			);
+			name = ft_hangoutsTests;
+			productName = ft_hangoutsTests;
+			productReference = 6955B4382C0E088F00971C2D /* ft_hangoutsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6955B4412C0E088F00971C2D /* ft_hangoutsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6955B4522C0E088F00971C2D /* Build configuration list for PBXNativeTarget "ft_hangoutsUITests" */;
+			buildPhases = (
+				6955B43E2C0E088F00971C2D /* Sources */,
+				6955B43F2C0E088F00971C2D /* Frameworks */,
+				6955B4402C0E088F00971C2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6955B4442C0E088F00971C2D /* PBXTargetDependency */,
+			);
+			name = ft_hangoutsUITests;
+			productName = ft_hangoutsUITests;
+			productReference = 6955B4422C0E088F00971C2D /* ft_hangoutsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6955B41B2C0E088C00971C2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6955B4222C0E088C00971C2D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6955B4372C0E088F00971C2D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6955B4222C0E088C00971C2D;
+					};
+					6955B4412C0E088F00971C2D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6955B4222C0E088C00971C2D;
+					};
+				};
+			};
+			buildConfigurationList = 6955B41E2C0E088C00971C2D /* Build configuration list for PBXProject "ft_hangouts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6955B41A2C0E088C00971C2D;
+			productRefGroup = 6955B4242C0E088C00971C2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6955B4222C0E088C00971C2D /* ft_hangouts */,
+				6955B4372C0E088F00971C2D /* ft_hangoutsTests */,
+				6955B4412C0E088F00971C2D /* ft_hangoutsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6955B4212C0E088C00971C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6955B42E2C0E088F00971C2D /* Preview Assets.xcassets in Resources */,
+				6955B42B2C0E088F00971C2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6955B4362C0E088F00971C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6955B4402C0E088F00971C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6955B41F2C0E088C00971C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6955B4302C0E088F00971C2D /* Persistence.swift in Sources */,
+				6955B4292C0E088C00971C2D /* ContentView.swift in Sources */,
+				6955B4332C0E088F00971C2D /* ft_hangouts.xcdatamodeld in Sources */,
+				6955B4272C0E088C00971C2D /* ft_hangoutsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6955B4342C0E088F00971C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6955B43D2C0E088F00971C2D /* ft_hangoutsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6955B43E2C0E088F00971C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6955B4472C0E088F00971C2D /* ft_hangoutsUITests.swift in Sources */,
+				6955B4492C0E088F00971C2D /* ft_hangoutsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6955B43A2C0E088F00971C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6955B4222C0E088C00971C2D /* ft_hangouts */;
+			targetProxy = 6955B4392C0E088F00971C2D /* PBXContainerItemProxy */;
+		};
+		6955B4442C0E088F00971C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6955B4222C0E088C00971C2D /* ft_hangouts */;
+			targetProxy = 6955B4432C0E088F00971C2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6955B44A2C0E088F00971C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6955B44B2C0E088F00971C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6955B44D2C0E088F00971C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ft_hangouts/Preview Content\"";
+				DEVELOPMENT_TEAM = XJ86NZS2JN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tefroiss.ft-hangouts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6955B44E2C0E088F00971C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ft_hangouts/Preview Content\"";
+				DEVELOPMENT_TEAM = XJ86NZS2JN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tefroiss.ft-hangouts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6955B4502C0E088F00971C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ86NZS2JN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tefroiss.ft-hangoutsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ft_hangouts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ft_hangouts";
+			};
+			name = Debug;
+		};
+		6955B4512C0E088F00971C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ86NZS2JN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tefroiss.ft-hangoutsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ft_hangouts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ft_hangouts";
+			};
+			name = Release;
+		};
+		6955B4532C0E088F00971C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ86NZS2JN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tefroiss.ft-hangoutsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ft_hangouts;
+			};
+			name = Debug;
+		};
+		6955B4542C0E088F00971C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ86NZS2JN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tefroiss.ft-hangoutsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ft_hangouts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6955B41E2C0E088C00971C2D /* Build configuration list for PBXProject "ft_hangouts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6955B44A2C0E088F00971C2D /* Debug */,
+				6955B44B2C0E088F00971C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6955B44C2C0E088F00971C2D /* Build configuration list for PBXNativeTarget "ft_hangouts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6955B44D2C0E088F00971C2D /* Debug */,
+				6955B44E2C0E088F00971C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6955B44F2C0E088F00971C2D /* Build configuration list for PBXNativeTarget "ft_hangoutsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6955B4502C0E088F00971C2D /* Debug */,
+				6955B4512C0E088F00971C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6955B4522C0E088F00971C2D /* Build configuration list for PBXNativeTarget "ft_hangoutsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6955B4532C0E088F00971C2D /* Debug */,
+				6955B4542C0E088F00971C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6955B4312C0E088F00971C2D /* ft_hangouts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6955B4322C0E088F00971C2D /* ft_hangouts.xcdatamodel */,
+			);
+			currentVersion = 6955B4322C0E088F00971C2D /* ft_hangouts.xcdatamodel */;
+			path = ft_hangouts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6955B41B2C0E088C00971C2D /* Project object */;
+}
