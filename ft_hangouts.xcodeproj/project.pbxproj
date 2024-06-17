@@ -16,6 +16,10 @@
 		6955B43D2C0E088F00971C2D /* ft_hangoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B43C2C0E088F00971C2D /* ft_hangoutsTests.swift */; };
 		6955B4472C0E088F00971C2D /* ft_hangoutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4462C0E088F00971C2D /* ft_hangoutsUITests.swift */; };
 		6955B4492C0E088F00971C2D /* ft_hangoutsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4482C0E088F00971C2D /* ft_hangoutsUITestsLaunchTests.swift */; };
+		6955B4562C0E0DA800971C2D /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4552C0E0DA800971C2D /* ContactView.swift */; };
+		6955B4582C0E0DCA00971C2D /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4572C0E0DCA00971C2D /* ProfilView.swift */; };
+		6955B45A2C0E0DE500971C2D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955B4592C0E0DE500971C2D /* HomeView.swift */; };
+		69B425D22C0F5DBA00D57A6A /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B425D12C0F5DBA00D57A6A /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		6955B4422C0E088F00971C2D /* ft_hangoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ft_hangoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6955B4462C0E088F00971C2D /* ft_hangoutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ft_hangoutsUITests.swift; sourceTree = "<group>"; };
 		6955B4482C0E088F00971C2D /* ft_hangoutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ft_hangoutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6955B4552C0E0DA800971C2D /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		6955B4572C0E0DCA00971C2D /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		6955B4592C0E0DE500971C2D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		69B425D12C0F5DBA00D57A6A /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 		6955B4252C0E088C00971C2D /* ft_hangouts */ = {
 			isa = PBXGroup;
 			children = (
+				6955B4572C0E0DCA00971C2D /* ProfilView.swift */,
+				6955B4592C0E0DE500971C2D /* HomeView.swift */,
+				6955B4552C0E0DA800971C2D /* ContactView.swift */,
+				69B425D12C0F5DBA00D57A6A /* MessageView.swift */,
 				6955B4262C0E088C00971C2D /* ft_hangoutsApp.swift */,
 				6955B4282C0E088C00971C2D /* ContentView.swift */,
 				6955B42A2C0E088F00971C2D /* Assets.xcassets */,
@@ -264,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6955B4302C0E088F00971C2D /* Persistence.swift in Sources */,
+				6955B45A2C0E0DE500971C2D /* HomeView.swift in Sources */,
 				6955B4292C0E088C00971C2D /* ContentView.swift in Sources */,
+				6955B4582C0E0DCA00971C2D /* ProfilView.swift in Sources */,
+				69B425D22C0F5DBA00D57A6A /* MessageView.swift in Sources */,
 				6955B4332C0E088F00971C2D /* ft_hangouts.xcdatamodeld in Sources */,
+				6955B4562C0E0DA800971C2D /* ContactView.swift in Sources */,
 				6955B4272C0E088C00971C2D /* ft_hangoutsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
